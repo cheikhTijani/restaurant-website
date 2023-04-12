@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#fdf2e9">
+    <meta name="theme-color" content="#fdf2e9">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="js/menu-script.js"></script>
+    <title>Palacio Nkc &mdash; Menu</title>
+</head>
+
+<body>
+
+    <header class="header" id="accueil">
+        <a href="index.html">
+            <img src="img/logo.png" alt="Logo" class="logo">
+        </a>
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a href="index.html" class="main-nav-link">Accueil</a></li>
+                <li><a href="#salades" class="main-nav-link">Entrées</a></li>
+                <li><a href="#poulet" class="main-nav-link">Plats</a></li>
+                <li><a href="#commander" class="main-nav-link">Commander</a></li>
+            </ul>
+        </nav>
+        <button class="btn-mobile-nav"><ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon><ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon></button>
+    </header>
+
+    <!-- Main -->
+
+    <main class="main" id="Menu">
+        <h1 class="heading-primary txt-center">Menu</h1>
+        <div class="container">
+            <div class="grid-row">
+                <section id="salades">
+                    <h2 class="menu-title">Salades</h2>
+                    <ul class="menu-list">
+                        <li>
+                            <span>Salade Niçoise</span> &nbsp;
+                            <span>150 MRU</span>
+                        </li>
+                        <li>
+                            <span>Salade César</span> &nbsp;
+                            <span>250 MRU</span>
+                        </li>
+                        <li>
+                            <span>Salade Palacio</span> &nbsp;
+                            <span>300 MRU</span>
+                        </li>
+                        <li>
+                            <span>Salade du Chef</span> &nbsp;
+                            <span>300 MRU</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="soupes">
+                    <h2 class="menu-title">Soupes</h2>
+                    <ul class="menu-list">
+                        <li>
+                            <span>Soupe Local</span> &nbsp;
+                            <span>50 MRU</span>
+                        </li>
+                        <li>
+                            <span>Soupe Harira</span> &nbsp;
+                            <span>100 MRU</span>
+                        </li>
+                        <li>
+                            <span>Taktouka</span> &nbsp;
+                            <span>150 MRU</span>
+                        </li>
+                        <li>
+                            <span>Soupe Fruits de Mer</span> &nbsp;
+                            <span>300 MRU</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <section id="boissons">
+                <h2 class="menu-title">Boissons</h2>
+                <div class="grid-row">
+                    <div class="col">
+                        <h3 class="menu-title-sm">Café</h3>
+                        <ul class="menu-list">
+                            <li>
+                                <span>Café au Lait</span> &nbsp;
+                                <span>50 MRU</span>
+                            </li>
+                            <li>
+                                <span>Café Normal</span> &nbsp;
+                                <span>60 MRU</span>
+                            </li>
+                            <li>
+                                <span>Espress Italienne</span> &nbsp;
+                                <span>65 MRU</span>
+                            </li>
+                            <li>
+                                <span>Café Allongé</span> &nbsp;
+                                <span>60 MRU</span>
+                            </li>
+                            <li>
+                                <span>Café Latté</span> &nbsp;
+                                <span>60 MRU</span>
+                            </li>
+                            <li>
+                                <span>Chocolat Chaud</span> &nbsp;
+                                <span>60 MRU</span>
+                            </li>
+                            <li>
+                                <span>Nescafé</span> &nbsp;
+                                <span>50 MRU</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3 class="menu-title-sm">Thé</h3>
+                        <ul class="menu-list">
+                            <li>
+                                <span>Thé Marocain</span> &nbsp;
+                                <span>50 MRU</span>
+                            </li>
+                            <li>
+                                <span>Thé Mauritanien</span> &nbsp;
+                                <span>50 MRU</span>
+                            </li>
+                            <li>
+                                <span>Lipton à l'Eau</span> &nbsp;
+                                <span>50 MRU</span>
+                            </li>
+                            <li>
+                                <span>Lipton au Lait</span> &nbsp;
+                                <span>50 MRU</span>
+                            </li>
+                            <li>
+                                <span>Thé Infusion</span> <small>(Menthe, Verveine, Reglisse, pèche)</small>
+                                <span>60 MRU</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3 class="menu-title-sm">Jus</h3>
+                        <ul class="menu-list">
+                            <li>
+                                <span>Orange</span> &nbsp;
+                                <span>100 MRU</span>
+                            </li>
+                            <li>
+                                <span>Banane</span> &nbsp;
+                                <span>100 MRU</span>
+                            </li>
+                            <li>
+                                <span>Mangue</span> &nbsp;
+                                <span>100 MRU</span>
+                            </li>
+                            <li>
+                                <span>Fraise</span> &nbsp;
+                                <span>120 MRU</span>
+                            </li>
+                            <li>
+                                <span>Avocat</span> &nbsp;
+                                <span>150 MRU</span>
+                            </li>
+                            <li>
+                                <span>Mojito</span> &nbsp;
+                                <span>180 MRU</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3 class="menu-title-sm">Milk-Shakes et Cocktail</h3>
+                        <ul class="menu-list">
+                            <li>
+                                <span>Banane</span> &nbsp;
+                                <span>120 MRU</span>
+                            </li>
+                            <li>
+                                <span>Oreo</span> &nbsp;
+                                <span>120 MRU</span>
+                            </li>
+                            <li>
+                                <span>Chocolat</span> &nbsp;
+                                <span>120 MRU</span>
+                            </li>
+                            <li>
+                                <span>Vanille</span> &nbsp;
+                                <span>120 MRU</span>
+                            </li>
+                            <li>
+                                <span>Fraise</span> &nbsp;
+                                <span>120 MRU</span>
+                            </li>
+                            <li>
+                                <span>Cocktail de Fruits</span> &nbsp;
+                                <span>150 MRU</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div class="grid-row">
+                <section id="desserts" class="col">
+                    <h2 class="menu-title">Desserts</h2>
+                    <ul class="menu-list">
+                        <li>
+                            <span>Salade de Fruits</span> &nbsp;
+                            <span>100 MRU</span>
+                        </li>
+                        <li>
+                            <span>Flan</span> &nbsp;
+                            <span>100 MRU</span>
+                        </li>
+                        <li>
+                            <span>Crepe au Miel ou Chocolat</span> &nbsp;
+                            <span>120 MRU</span>
+                        </li>
+                        <li>
+                            <span>Mousse au Chocolat</span> &nbsp;
+                            <span>120 MRU</span>
+                        </li>
+                        <li>
+                            <span>Tiramisu</span> &nbsp;
+                            <span>120 MRU</span>
+                        </li>
+                        <li>
+                            <span>Cheese-Cake</span> &nbsp;
+                            <span>180 MRU</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="poulet" class="col">
+                    <h2 class="menu-title">Poulet</h2>
+                    <ul class="menu-list">
+                        <li>
+                            <span>Poulet au Curry</span> &nbsp;
+                            <span>300 MRU</span>
+                        </li>
+                        <li>
+                            <span>Brochette Poulet</span> &nbsp;
+                            <span>340 MRU</span>
+                        </li>
+                        <li>
+                            <span>Pastilla au Poulet</span> &nbsp;
+                            <span>300 MRU</span>
+                        </li>
+                        <li>
+                            <span>Seffa au Poulet</span> &nbsp;
+                            <span>280 MRU</span>
+                        </li>
+                        <li>
+                            <span>Tajine Poulet au Citron</span> &nbsp;
+                            <span>280 MRU</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="grid-row">
+                <section id="viande" class="col">
+                    <h2 class="menu-title">Viande</h2>
+                    <ul class="menu-list">
+                        <li>
+                            <span>Filet de Bœuf</span> &nbsp;
+                            <span>600 MRU</span>
+                        </li>
+                        <li>
+                            <span>Brochette de Viande</span> &nbsp;
+                            <span>400 MRU</span>
+                        </li>
+                        <li>
+                            <span>Cotlettes d'Agneau</span> &nbsp;
+                            <span>300 MRU</span>
+                        </li>
+                        <li>
+                            <span>Sautée de Bœuf</span> &nbsp;
+                            <span>450 MRU</span>
+                        </li>
+                        <li>
+                            <span>Tajine Viande</span> &nbsp;
+                            <span>350 MRU</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="poisson" class="col">
+                    <h2 class="menu-title">Poisson</h2>
+                    <ul class="menu-list">
+                        <li>
+                            <span>Dorade à l'ail</span> &nbsp;
+                            <span>350 MRU</span>
+                        </li>
+                        <li>
+                            <span>Filet de Poisson</span> &nbsp;
+                            <span>400 MRU</span>
+                        </li>
+                        <li>
+                            <span>Poulpe Grrillée</span> &nbsp;
+                            <span>450 MRU</span>
+                        </li>
+                        <li>
+                            <span>Crevettes à la Plancha</span> &nbsp;
+                            <span>450 MRU</span>
+                        </li>
+                        <li>
+                            <span>Friture de Calamar</span> &nbsp;
+                            <span>400 MRU</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="grid-row">
+                <section id="pizza" class="col">
+                    <h2 class="menu-title">Pizza</h2>
+                    <ul class="menu-list">
+                        <li>
+                            <span>Thon</span> &nbsp;
+                            <span>220 MRU</span>
+                        </li>
+                        <li>
+                            <span>Végétarienne</span> &nbsp;
+                            <span>220 MRU</span>
+                        </li>
+                        <li>
+                            <span>Poulet</span> &nbsp;
+                            <span>220 MRU</span>
+                        </li>
+                        <li>
+                            <span>Margarita</span> &nbsp;
+                            <span>220 MRU</span>
+                        </li>
+                        <li>
+                            <span>Viande Hachée </span> &nbsp;
+                            <span>220 MRU</span>
+                        </li>
+                        <li>
+                            <span>Fruit de Mer </span> &nbsp;
+                            <span>300 MRU</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="pasta" class="col">
+                    <h2 class="menu-title">Pasta et Riz</h2>
+                    <ul class="menu-list">
+                        <li>
+                            <span>Lasgna à la Bolognaise</span> &nbsp;
+                            <span>280 MRU</span>
+                        </li>
+                        <li>
+                            <span>Spaghetti Bolognaise</span> &nbsp;
+                            <span>360 MRU</span>
+                        </li>
+                        <li>
+                            <span>Spaghetti Fruits de Mer</span> &nbsp;
+                            <span>400 MRU</span>
+                        </li>
+                        <li>
+                            <span>Risotto au légume</span> &nbsp;
+                            <span>300 MRU</span>
+                        </li>
+                        <li>
+                            <span>Paella Fruit de Mer</span> &nbsp;
+                            <span>880 MRU</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="grid-row">
+                <section id="burgers" class="col">
+                    <h2 class="menu-title">Burgers</h2>
+                    <ul class="menu-list">
+                        <li>
+                            <span>Hamburger</span> &nbsp;
+                            <span>100 MRU</span>
+                        </li>
+                        <li>
+                            <span>Cheese Burger</span> &nbsp;
+                            <span>120 MRU</span>
+                        </li>
+                        <li>
+                            <span>Double Cheese</span> &nbsp;
+                            <span>140 MRU</span>
+                        </li>
+                        <li>
+                            <span>Chicken Burger</span> &nbsp;
+                            <span>180 MRU</span>
+                        </li>
+                        <li>
+                            <span>Big Burger</span> &nbsp;
+                            <span>200 MRU</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="tacos" class="col">
+                    <h2 class="menu-title">Tacos</h2>
+                    <ul class="menu-list">
+                        <li>
+                            <span>Poulet</span> &nbsp;
+                            <span>150 MRU</span>
+                        </li>
+                        <li>
+                            <span>Viande</span> &nbsp;
+                            <span>150 MRU</span>
+                        </li>
+                        <li>
+                            <span>Calamar</span> &nbsp;
+                            <span>180 MRU</span>
+                        </li>
+                        <li>
+                            <span>Mixte</span> <small>(viande, fruits de mer, poulet)</small>
+                            <span>200 MRU</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="grid-row">
+                <section class="col">
+                    <h2 class="menu-title">Sandwitches</h2>
+                    <ul class="menu-list">
+                        <li>
+                            <span>Panini</span> &nbsp;
+                            <span>130 MRU</span>
+                        </li>
+                        <li>
+                            <span>Shawarma</span> &nbsp;
+                            <span>200 MRU</span>
+                        </li>
+                        <li>
+                            <span>Kebab</span> &nbsp;
+                            <span>150 MRU</span>
+                        </li>
+                        <li>
+                            <span>Pepito</span> &nbsp;
+                            <span>180 MRU</span>
+                        </li>
+                        <li>
+                            <span>Brioche</span> &nbsp;
+                            <span>180 MRU</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="divers" class="col">
+                    <h2 class="menu-title">Suppléments</h2>
+                    <ul class="menu-list">
+                        <li>
+                            <span>Frites</span> &nbsp;
+                            <span>100 MRU</span>
+                        </li>
+                        <li>
+                            <span>Riz</span> &nbsp;
+                            <span>80 MRU</span>
+                        </li>
+                        <li>
+                            <span>œuf</span> &nbsp;
+                            <span>20 MRU</span>
+                        </li>
+                        <li>
+                            <span>Fromage</span> &nbsp;
+                            <span>30 MRU</span>
+                        </li>
+                        <li>
+                            <span>Chicken Nuggets</span> &nbsp;
+                            <span>250 MRU</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="txt-center" id="commander">
+                <p class="menu-title-sm">37 37 02 02</p>
+                <a href="tel:37370202" class="btn btn-full">Commandez Maintenant</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="logo-col">
+                    <a href="#accueil" class="footer-logo">
+                        <img class="logo" src="img/logo.png" alt="Logo Palacio">
+                    </a>
+                    <p class="copyright">Copyright &copy; 2022 par Palacio<br> Tous droits reservés</p>
+                </div>
+
+                <div class="address-col">
+                    <p class="footer-heading">Coordonnées</p>
+                    <address class="contacts">
+                        <p><ion-icon name="location-outline" class="contact-icon"></ion-icon> Tevragh Zeina, ZRB 817, Nouakchott, Mauritanie</p>
+
+                        <p>
+                            <ion-icon name="call-outline" class="contact-icon"></ion-icon> / &nbsp;
+                            <ion-icon name="logo-whatsapp" class="contact-icon"></ion-icon>
+                            <a href="tel:0022237370202" class="footer-link">37 37 02 02</a>
+                        </p>
+
+                        <p><ion-icon name="mail-outline" class="contact-icon"></ion-icon> <a href="mailto:ouldahmedcheikh99@gmail.com" class="footer-link">palacio.rim@gmail.com</a></p>
+                    </address>
+                </div>
+
+                <div class="nav-col social">
+                    <p class="footer-heading">Suivez Nous</p>
+                    <ul class="social-links">
+                        <li>
+                            <a class="footer-link" href="https://www.facebook.com/palacio.nkc" target="_blank">
+                                <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" target="_blank" href="https://www.snapchat.com/add/palacio.nkc">
+                                <ion-icon name="logo-snapchat" class="social-icon"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="footer-link" target="_blank" href="https://www.instagram.com/palacio.restaurant/">
+                                <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" target="_blank" href="https://www.tiktok.com/@palacio.nkc">
+                                <ion-icon name="logo-tiktok" class="social-icon"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <nav class="nav-col menu">
+                    <p class="footer-heading">Navigation</p>
+                    <ul class="footer-nav">
+                        <li><a href="#Menu" class="footer-link">Menu</a></li>
+                        <li><a href="#poulet" class="footer-link">Plats</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

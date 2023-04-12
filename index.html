@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="description" content="Palacio, Restaurant, Drive-Thru, Café, Terasse, Rooftop. Chez Palacio, restauration de qualité, divertissement, ambiance relaxante."> -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#fdf2e9">
+    <meta name="theme-color" content="#fdf2e9">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="js/script.js"></script>
+    <title>Palacio Nkc &mdash; Restauration de qualité, ambiance chaleureuse</title>
+</head>
+
+<body>
+    <header class="header" id="accueil">
+        <a href="#accueil">
+            <img src="img/logo.png" alt="Logo" class="logo">
+        </a>
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a href="index.html" class="main-nav-link">Accueil</a></li>
+                <li><a href="#theMenu" class="main-nav-link">Menu</a></li>
+                <li><a href="#livraison" class="main-nav-link">Livraison</a></li>
+                <li><a href="#contact" class="main-nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="btn-mobile-nav"><ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon><ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon></button>
+    </header>
+    <main>
+        <!-- SECTION HERO -->
+        <section class="section-hero">
+            <div class="hero">
+                <div class="hero-text-box">
+                    <h1 class="heading-primary">Bienvenu Chez Palacio</h1>
+                    <p class="hero-description">Restaurant, Drive-Thru, Café, Terasse, Rooftop. Savourer vos plats preférés dans une ambiance relaxante et décontractée. Déguster la nourriture saine, fraiche et de bonne qualité.</p>
+                    <a href="#theMenu" class="btn btn-full margin-right-sm">Consulter Le Menu</a>
+                    <a href="#contact" class="btn btn-outline">Nous Contacter &darr;</a>
+                    <div class="delivered-meals">
+                        <div class="delivered-img">
+                            <img src="img/customer1.jpg" alt="customer 1 photo">
+                            <img src="img/customer2.jpg" alt="customer 2 photo">
+                            <img src="img/customer3.jpg" alt="customer 3 photo">
+                            <img src="img/customer4.jpg" alt="customer 4 photo">
+                        </div>
+                        <p class="delivered-text">Ils ont aimé Palacio</p>
+                    </div>
+                </div>
+                <div class="hero-img-box">
+                    <img src="img/collage.jpg" alt="Food Photo" class="hero-img">
+                </div>
+            </div>
+        </section>
+        <!-- SECTION HOW IT WORKS-->
+        <section class="section-how" id="livraison">
+            <div class="container">
+                <span class="subheading">Comment ça Marche?</span>
+                <h2 class="heading-secondary">3 étapes simples pour commandez</h2>
+            </div>
+            <div class="container grid grid-2-cols grid-center-v">
+                <!-- STEP 01 -->
+                <div class="step-text-box">
+                    <p class="step-number">01</p>
+                    <h3 class="heading-tertiary">Explorer le <a href="#theMenu" class="how-link">menu</a>, choisissez</h3>
+                    <p class="step-description">Large choix de produits: Poulets, Pizzas, Pasta, Poisson, Vinades, Tacos, Sandwitches, boissons, désserts salades... Prenez votre temps, explorer, lire les ingrédients... Choisissez!</p>
+                </div>
+                <div class="step-img-box">
+                    <img src="img/choose.svg" alt="Choisir une commande" class="step-img">
+                </div>
+                <!-- STEP 02 -->
+                <div class="step-img-box">
+                    <img src="img/pay.svg" alt="iPhone App" class="step-img">
+                </div>
+                <div class="step-text-box">
+                    <p class="step-number">02</p>
+                    <h3 class="heading-tertiary">Confirmez la commande</h3>
+                    <p class="step-description">Une fois que vous avez choisi, cliquez sur commander puis choisir la méthode de paiement, soit par <strong>Bankily</strong> ou <strong>Masrvi</strong>, vous pouvez également choisir de payer à la livraison.</p>
+                </div>
+                <!-- STEP 03 -->
+                <div class="step-text-box">
+                    <p class="step-number">03</p>
+                    <h3 class="heading-tertiary">Votre commande est arrivée </h3>
+                    <p class="step-description">Nous nous occupons nous-memes de la livraison de vos commandes et nous s'assurons que vous les recevez le plus vite possible, c'est promis!</p>
+                </div>
+                <div class="step-img-box">
+                    <img src="img/receive.svg" alt="iPhone App" class="step-img">
+                </div>
+            </div>
+        </section>
+        <!-- SECTION MEALS-->
+        <section class="section-meals" id="theMenu">
+            <div class="container center-text">
+                <span class="subheading">Explorer le menu</span>
+                <h2 class="heading-secondary">Large choix, plats diversifiés, boissons rafraîchissantes</h2>
+            </div>
+            <div class="container grid grid-4-cols">
+
+                <div class="meal">
+                    <img src="img/salad.jpg" alt="Salades">
+                    <a href="./menu.html" class="meal-link">Salades</a>
+                </div>
+
+                <div class="meal">
+                    <img src="img/soup.jpg" alt="Soupes">
+                    <a href="./menu.html" class="meal-link">Soupes</a>
+                </div>
+
+                <div class="meal">
+                    <img src="img/boisson.jpg" alt="Boisson">
+                    <a href="menu.html#boissons" class="meal-link">Boissons</a>
+                </div>
+
+                <div class="meal">
+                    <img src="img/dessert.jpg" alt="Desserts">
+                    <a href="menu.html#desserts" class="meal-link">Desserts</a>
+                </div>
+
+                <div class="meal">
+                    <img src="img/poulet.jpg" alt="Poulet">
+                    <a href="menu.html#poulet" class="meal-link">Poulet</a>
+                </div>
+
+                <div class="meal">
+                    <img src="img/viande.jpg" alt="Viande">
+                    <a href="menu.html#viande" class="meal-link">Viande</a>
+                </div>
+
+                <div class="meal">
+                    <img src="img/poisson.jpg" alt="Poisson">
+                    <a href="menu.html#poisson" class="meal-link">Poisson</a>
+                </div>
+
+                <div class="meal">
+                    <img src="img/pizza.jpg" alt="Pizza">
+                    <a href="menu.html#pizza" class="meal-link">Pizza</a>
+                </div>
+
+                <div class="meal">
+                    <img src="img/pasta.jpg" alt="Pasta">
+                    <a href="menu.html#pasta" class="meal-link">Pasta</a>
+                </div>
+
+                <div class="meal">
+                    <img src="img/burger.jpg" alt="Burgers">
+                    <a href="menu.html#burgers" class="meal-link">Burgers</a>
+                </div>
+
+                <div class="meal">
+                    <img src="img/tacos.jpg" alt="Tacos">
+                    <a href="menu.html#tacos" class="meal-link">Tacos</a>
+                </div>
+
+                <div class="meal">
+                    <img src="img/divers.jpg" alt="Supplémens et divers">
+                    <a href="menu.html#divers" class="meal-link">Supplémens</a>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <a href="menu.html" class="btn btn-full">Voir le Menu</a>
+            </div>
+        </section>
+
+        <!-- SECTION TESTIMONIALS-->
+        <section class="section-testimonials">
+            <div class="testimonial-container">
+                <span class="subheading">Témoignages</span>
+                <h2 class="heading-secondary">Un service de qualité, des clients satisfaits</h2>
+                <div class="testimonials">
+                    <figure class="testimonial">
+                        <div class="testimonial-img">
+                            <img src="img/customer1.jpg" alt="">
+                        </div>
+                        <blockquote class="testimonial-text">
+                            J'aime beaucoup l'ambiance chez Palacio, je viens ici souvent avec mes amis on se régale, on s'amuse et on mange des plats délicieux.
+                        </blockquote>
+                        <p class="testimonial-name">&mdash; Hamzo Bryn</p>
+                    </figure>
+
+                    <figure class="testimonial">
+                        <div class="testimonial-img">
+                            <img src="img/customer2.jpg" alt="">
+                        </div>
+                        <blockquote class="testimonial-text">
+                            Le serveurs sont accueillants et sympa, la nourriture est fraiche et saine. Je recommande Palacio à tous mes amis et proches.
+                        </blockquote>
+                        <p class="testimonial-name">&mdash; Esma Kane</p>
+                    </figure>
+                    <figure class="testimonial">
+                        <div class="testimonial-img">
+                            <img src="img/customer3.jpg" alt="">
+                        </div>
+                        <blockquote class="testimonial-text">
+                            Je trouve que les prix sont très raisonnables vu la qualité des produits et des service. Ce que J'aime le plus c'est le drive-thru.
+                        </blockquote>
+                        <p class="testimonial-name">&mdash; Moulay ElMehdi</p>
+                    </figure>
+                    <figure class="testimonial">
+                        <div class="testimonial-img">
+                            <img src="img/customer4.jpg" alt="">
+                        </div>
+                        <blockquote class="testimonial-text">
+                            Le service de livraison est le meilleur, je reçois mes commandes encore fraiches et dans un délai convenable sans le moindre effort.
+                        </blockquote>
+                        <p class="testimonial-name">&mdash; Cheri Med</p>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <figure class="gallery-item">
+                    <img src="img/gallery1.jpg" alt="">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery2.jpg" alt="">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery3.jpg" alt="">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery4.jpg" alt="">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery5.jpg" alt="">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery6.jpg" alt="">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery7.jpg" alt="">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery8.jpg" alt="">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery9.jpg" alt="">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery10.jpg" alt="">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery11.jpg" alt="">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/gallery12.jpg" alt="">
+                </figure>
+            </div>
+        </section>
+        <!-- SECTION PLANS-->
+        <section class="section-pricing" id="abonnements">
+            <div class="container">
+                <span class="subheading">Abonnements</span>
+                <h2 class="heading-secondary">Des plans très attractifs pour nos clients fidèles</h2>
+            </div>
+            <div class="container grid grid-3-cols">
+                <div class="pricing-plan">
+                    <div class="plan-header">
+                        <p class="plan-name">Petit Déj</p>
+                        <p class="plan-price">4500 <span>MRU/mois</span></p>
+                        <p class="plan-text">Soit 150 MRU le Petit Déj</p>
+                    </div>
+                    <ul class="list">
+                        <li class="list-item">
+                            <ion-icon class="list-icon" name="cafe-outline"></ion-icon>
+                            <span>Petit déj + thé / café</span>
+                        </li>
+                        <li class="list-item">
+                            <ion-icon class="list-icon" name="time-outline"></ion-icon>
+                            <span>Servi de 7h à 11h</span>
+                        </li>
+                        <li class="list-item">
+                            <ion-icon class="list-icon" name="cash-outline"></ion-icon>
+                            <span>Economisez 1500 MRU</span>
+                        </li>
+                    </ul>
+                    <div class="plan-signup">
+                        <a href="#" class="btn btn-full">Je m'abonne</a>
+                    </div>
+                </div>
+
+                <div class="pricing-plan pricing-plan-dej">
+                    <div class="plan-header">
+                        <p class="plan-name">Déjeuner</p>
+                        <p class="plan-price">5400 <span>MRU/mois</span></p>
+                        <p class="plan-text">Soit 180 MRU le déjeuner</p>
+                    </div>
+                    <ul class="list">
+                        <li class="list-item">
+                            <ion-icon class="list-icon" name="fast-food-outline"></ion-icon>
+                            <span>Plats diversifiés + boissons</span>
+                        </li>
+                        <li class="list-item">
+                            <ion-icon class="list-icon" name="time-outline"></ion-icon>
+                            <span>Servi de 13h à 15h</span>
+                        </li>
+                        <li class="list-item">
+                            <ion-icon class="list-icon" name="cash-outline"></ion-icon>
+                            <span>Economisez 2100 MRU</span>
+                        </li>
+                    </ul>
+                    <div class="plan-signup">
+                        <a href="#" class="btn btn-full">Je m'abonne</a>
+                    </div>
+                </div>
+
+                <div class="pricing-plan diner">
+                    <div class="plan-header">
+                        <p class="plan-name">Diner</p>
+                        <p class="plan-price">5100 <span>MRU/mois</span></p>
+                        <p class="plan-text">Soit 170 MRU le diner</p>
+                    </div>
+                    <ul class="list">
+                        <li class="list-item">
+                            <ion-icon class="list-icon" name="fast-food-outline"></ion-icon>
+                            <span>Plats diversifiés + boisson</span>
+                        </li>
+                        <li class="list-item">
+                            <ion-icon class="list-icon" name="time-outline"></ion-icon>
+                            <span>Servi de 21h à 00h</span>
+                        </li>
+                        <li class="list-item">
+                            <ion-icon class="list-icon" name="cash-outline"></ion-icon>
+                            <span>Economisez 900 MRU</span>
+                        </li>
+                    </ul>
+                    <div class="plan-signup">
+                        <a href="#" class="btn btn-full">Je m'abonne</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container">
+                <aside class="plan-details">Nos Points Forts</aside>
+            </div>
+            <div class="container grid grid-4-cols">
+                <div class="feature">
+                    <ion-icon class="feature-icon" name="car-outline"></ion-icon>
+                    <p class="feature-title">Drive-Thru</p>
+                    <p class="feature-text">Gagner du temps et récupérer votre commande sans devoir descendre de votre voiture </p>
+                </div>
+                <div class="feature">
+                    <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+                    <p class="feature-title">Produits frais</p>
+                    <p class="feature-text">Nous n'utilisons que des produits frais et de très bonne qualités pour préparer vos commandes.</p>
+                </div>
+                <div class="feature">
+                    <ion-icon class="feature-icon" name="pause-circle-outline"></ion-icon>
+                    <p class="feature-title">Plans flexibles</p>
+                    <p class="feature-text">Vous avez une voyage? Pas de souci, nous allons garder le reste de votre plan ou bien vous remboursser.</p>
+                </div>
+                <div class="feature">
+                    <ion-icon class="feature-icon" name="snow-outline"></ion-icon>
+                    <p class="feature-title">Salles Climatisées</p>
+                    <p class="feature-text">Relaxer dans nos salles comfortables Climatisées et bien équipées, avec wifi à haut débit.</p>
+                </div>
+
+            </div>
+        </section>
+        <!-- SECTION CTA-->
+        <section class="section-cta" id="contact">
+            <div class="container">
+                <div class="cta">
+                    <div class="cta-text-box">
+                        <h2 class="heading-secondary">Palacio est toujours à l'écoute</h2>
+                        <p class="cta-text">Nous attendons votre feedback. Dites nous vos remarques, vos requettes et vos observations. Nous traiterons vos messages et vous reponderons le plutot possible.</p>
+                        <form action="#" class="cta-form">
+
+                            <div>
+                                <input type="text" placeholder="Votre nom" required>
+                            </div>
+
+                            <div>
+                                <input type="email" placeholder="Votre email" required>
+                            </div>
+
+                            <div>
+                                <textarea cols="30" rows="7" placeholder="Ecrire ici..." required></textarea>
+                            </div>
+
+                            <button class="btn btn-form">Envoyez</button>
+                        </form>
+                    </div>
+                    <div class="cta-img-box" role="img" aria-label="Palacio worker serving"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="logo-col">
+                    <a href="#accueil" class="footer-logo">
+                        <img class="logo" src="img/logo.png" alt="Logo Palacio">
+                    </a>
+                    <p class="copyright">Copyright &copy; 2022 par Palacio<br> Tous droits reservés</p>
+                </div>
+
+                <div class="address-col">
+                    <p class="footer-heading">Coordonnées</p>
+                    <address class="contacts">
+                        <p><ion-icon name="location-outline" class="contact-icon"></ion-icon> Tevragh Zeina, ZRB 817, Nouakchott, Mauritanie</p>
+
+                        <p>
+                            <ion-icon name="call-outline" class="contact-icon"></ion-icon> / &nbsp;
+                            <ion-icon name="logo-whatsapp" class="contact-icon"></ion-icon>
+                            <a href="tel:0022237370202" class="footer-link">37 37 02 02</a>
+                        </p>
+
+                        <p><ion-icon name="mail-outline" class="contact-icon"></ion-icon> <a href="mailto:ouldahmedcheikh99@gmail.com" class="footer-link">palacio.rim@gmail.com</a></p>
+                    </address>
+                </div>
+
+                <div class="nav-col social">
+                    <p class="footer-heading">Suivez Nous</p>
+                    <ul class="social-links">
+                        <li>
+                            <a class="footer-link" href="https://www.facebook.com/palacio.nkc" target="_blank">
+                                <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" target="_blank" href="https://www.snapchat.com/add/palacio.nkc">
+                                <ion-icon name="logo-snapchat" class="social-icon"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="footer-link" target="_blank" href="https://www.instagram.com/palacio.restaurant/">
+                                <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" target="_blank" href="https://www.tiktok.com/@palacio.nkc">
+                                <ion-icon name="logo-tiktok" class="social-icon"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <nav class="nav-col menu">
+                    <p class="footer-heading">Navigation</p>
+                    <ul class="footer-nav">
+                        <li><a href="index.html" class="footer-link">Accueil</a></li>
+                        <li><a href="#livraison" class="footer-link">Livraison</a></li>
+                        <li><a href="#theMenu" class="footer-link">Menu</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
